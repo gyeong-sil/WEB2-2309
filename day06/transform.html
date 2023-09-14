@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            margin: 40px;
+        }
+        .translate-box {
+            transform: translate(10px,10px);
+        }
+        .scale-box {
+            transform: scale(0.5);
+        }
+        .rotate-box {
+            transform: rotate(200deg);
+            transform-origin: 500px 50%;
+        }
+        .skew-box {
+            transform: skewX(25deg) skewY(25deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="box translate-box"></div>
+    <div class="box scale-box"></div>
+    <div class="box rotate-box"></div>
+    <div class="box skew-box"></div>
+    
+</body>
+</html>
